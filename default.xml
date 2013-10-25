@@ -20,8 +20,7 @@
   <remote name="gh"
            fetch="git://github.com/" />
   <remote name="dt"
-           fetch="git://github.com/" />
-          
+          fetch="https://github.com/DeviceTREE/" />      
          
   <default revision="cm-10.2"
           sync-c="true"
