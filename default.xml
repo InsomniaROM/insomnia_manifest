@@ -37,18 +37,9 @@
 
   <project path="kernel/htc/vigor-3.0" name="vigor/vigor_aosp_kernel" remote="gh" revision="cm-10.2" groups="notdefault,kernel,htc,vigor" />
   <project path="device/htc/vigor" name="vigor/device_htc_vigor" remote="gh" revision="cm-10.2" groups="notdefault,kernel,htc,vigor"/>
-  <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="dt" revision="master" />
-  <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="dt" revision="master" />
-  <project path="device/htc/m7tmo" name="android_device_htc_m7tmo" remote="dt" revision="master" />
-  <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="dt" revision="master" />
   <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="dt" revision="cm-10.2" />
   <project path="device/sample" name="platform_device_sample" remote="ck" revision="jb43" groups="pdk" />
-  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="dt" revision="jb43" />
-  <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="dt" revision="jb43" />
-  <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" remote="dt" revision="jb43" />
-  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="dt" revision="jb43" />
-  <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="dt" revision="jb43" />
-  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="dt" revision="jb43" />
+
  
   <!--System Specifics-->
   <project path="abi/cpp" name="android_abi_cpp" groups="pdk" />
@@ -399,9 +390,6 @@
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   
   <!--Device Specific Vendors-->
-  <project path="vendor/htc" name="proprietary_vendor_htc" remote="dt" revision="master" />
-  <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="dt" revision="master" />
-  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="dt" revision="master" />
   <project path="vendor/insomnia" name="platform_vendor_insomnia" remote="ck" revision="jb43" >
     <copyfile src="tools/build-insomnia.sh" dest="build-ck.sh" />
   </project>
