@@ -12,7 +12,7 @@ Getting Started
 INITIALIZING REPOSITORY
 =======================
 
-Init core trees without any device/kernel/vendor :
+Init 
 
     $  repo init -u git://github.com/InsomniaROM/insomnia_manifest.git -b jb43
     
