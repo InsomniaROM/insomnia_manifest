@@ -16,16 +16,10 @@ Init
 
     $  repo init -u git://github.com/InsomniaROM/insomnia_manifest.git -b jb43
     
-BUILD PYRAMID
- 
-    $  repo init -u git://github.com/InsomniaROM/pyramid_manifest.git -b master
-
-
-
 
 sync repo :
 
-    $ repo sync
+    $ repo sync -j32
 
 
 
