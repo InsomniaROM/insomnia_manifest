@@ -1,4 +1,4 @@
-insomnia_manifest
+manifest
 =================
 
 InsomniaROM 4.3.1 is based on (VanirAOSP,AOKP,XenonHD,ParanoidAndroid,Cyanogenmod,CodefireXexperiment,and Linaro!)
