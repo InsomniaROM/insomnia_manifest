@@ -14,7 +14,7 @@ INITIALIZING REPOSITORY
 
 Init 
 
-    $  repo init -u git://github.com/InsomniaROM/insomnia_manifest.git -b jb43
+    $  repo init -u git://github.com/InsomniaROM/manifest.git -b jb43
     
 
 sync repo :
