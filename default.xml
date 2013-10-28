@@ -16,6 +16,8 @@
           fetch="git://android.git.linaro.org/" />
   <remote name="gh"
            fetch="git://github.com/" />
+  <remote name="dt"
+          fetch="https://github.com/DeviceTREE/" /> 
     
          
   <default revision="cm-10.2"
