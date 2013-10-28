@@ -37,8 +37,10 @@
   <project path="device/htc/vigor" name="vigor/device_htc_vigor" remote="gh" revision="cm-10.2" groups="notdefault,kernel,htc,vigor"/>
   <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="dt" revision="cm-10.2" />
   <project path="device/sample" name="platform_device_sample" remote="ck" revision="jb43" groups="pdk" />
-
+  <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="dt" revision="cm-10.2" />
+  <project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy" remote="dt" revision="cm-10.2" />
  
+  
   <!--System Specifics-->
   <project path="abi/cpp" name="android_abi_cpp" groups="pdk" />
   <project path="bionic" name="platform_bionic" remote="ck" revision="jb43" groups="pdk" />
@@ -273,7 +275,7 @@
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" />
   <project path="hardware/invensense" name="android_hardware_invensense" remote="ck" revision="jb43" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="ck" revision="jb43" />
-  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware-legacy" remote="ck" revision="jb43" /> 
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware-legacy" remote="ck" revision="jb43" />
   <project path="hardware/msm7k" name="android_hardware_msm7k" remote="ck" revision="jb43" />
   
   <!--Qcom hardware files-->
@@ -282,9 +284,6 @@
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom"/>
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="ck" revision="jb43" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="ck" revision="jb43" groups="caf" />
-  <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="dt" revision="cm-10.2" />
-  <project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy" remote="dt" revision="cm-10.2" />
-  <project path="hardware/qcom/gps-legacy" name="android_hardware_qcom_gps-legacy" remote="dt" revision="cm-10.2" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="ck" revision="jb43" groups="qcom" />
@@ -323,7 +322,6 @@
   <project path="packages/apps/Mms" name="packages_apps_Mms" remote="ck" revision="jb43" />
   <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="ck" revision="jb43" />
-  <project path="packages/apps/Onager" name="packages_apps_Onager" remote="ck" revision="master" />
   <project path="packages/apps/OneTimeInitializer" name="android_packages_apps_OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="ck" revision="jb43" />
   <project path="packages/apps/PerformanceControl" name="platform_packages_apps_PerformanceControl" remote="ck" revision="master" />
@@ -377,7 +375,7 @@
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" remote="aosp" revision="refs/tags/android-4.3.1_r1" groups="pdk" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" remote="aosp" revision="refs/tags/android-4.3.1_r1" groups="pdk" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.3.1_r1" groups="pdk" />
-  <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.3.1_r1" groups="pdk" />   <project path="sdk" name="android_sdk" />
+  <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.3.1_r1" groups="pdk" /> <project path="sdk" name="android_sdk" />
   <project path="system/bluetooth" name="android_system_bluetooth" remote="ck" revision="jb43" />
   <project path="system/core" name="platform_system_core" remote="ck" revision="jb43" groups="pdk" />
   <project path="system/extras" name="platform_system_extras" remote="ck" revision="jb43" groups="pdk" />
@@ -389,6 +387,8 @@
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   
   <!--Device Specific Vendors-->
+  <project path="vendor/htc" name="vendor_htc" remote="dt" revision="master" />
+  <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="dt" revision="master" />
   <project path="vendor/insomnia" name="platform_vendor_insomnia" remote="ck" revision="jb43" >
     <copyfile src="tools/build-insomnia.sh" dest="build-ck.sh" />
   </project>
@@ -396,7 +396,7 @@
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" />
-  <project path="insomnia/manifest" name="insomnia_manifest" remote="ck" revision="jb43" />
+  <project path="manifest" name="manifest" remote="ck" revision="master" />
    
     
 </manifest>
