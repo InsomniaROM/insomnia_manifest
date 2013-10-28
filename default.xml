@@ -36,7 +36,6 @@
   <project path="kernel/htc/vigor-3.0" name="vigor/vigor_aosp_kernel" remote="gh" revision="cm-10.2" groups="notdefault,kernel,htc,vigor" />
   <project path="device/htc/vigor" name="vigor/device_htc_vigor" remote="gh" revision="cm-10.2" groups="notdefault,kernel,htc,vigor"/>
   <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="dt" revision="cm-10.2" />
-  <project path="device/sample" name="platform_device_sample" remote="ck" revision="jb43" groups="pdk" />
   <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="dt" revision="cm-10.2" />
   <project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy" remote="dt" revision="cm-10.2" />
  
@@ -297,6 +296,7 @@
   
   <project path="hardware/ril" name="platform_hardware_ril" remote="ck" revision="jb43" groups="pdk" />
   <project path="hardware/samsung" name="android_hardware_samsung" />
+  <project path="device/sample" name="platform_device_sample" remote="ck" revision="jb43" groups="pdk" />
   <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" />
